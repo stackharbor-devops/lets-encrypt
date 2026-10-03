@@ -7,7 +7,7 @@ ${globals.skippedDomainsText}
 
 Also, the used domain names list can be adjusted later with the **Configure** button.  
 
-![Let's encrypt addon configuration](https://fastly.jsdelivr.net/gh/stackharbor-devops/lets-encrypt@sh-2/images/lets-encrypt-addon-config.png)
+![Let's encrypt addon configuration](https://fastly.jsdelivr.net/gh/stackharbor-devops/lets-encrypt@sh-3/images/lets-encrypt-addon-config.png)
 
 Useful links:
 * [How to work with Let's Encrypt add-on](https://www.virtuozzo.com/application-management-docs/lets-encrypt-ssl/)
