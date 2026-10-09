@@ -33,7 +33,7 @@ targetNodes:
   ]
 
 homepage: https://github.com/jelastic-jps/lets-encrypt
-baseUrl: https://fastly.jsdelivr.net/gh/stackharbor-devops/lets-encrypt@sh-3
+baseUrl: https://fastly.jsdelivr.net/gh/stackharbor-devops/lets-encrypt@sh-4
 logo: images/letsencrypt.png
 
 description:
@@ -47,7 +47,7 @@ globals:
 
 mixins:
   - configs/vers.yaml
-  - https://fastly.jsdelivr.net/gh/stackharbor-devops/common@sh-3/clustered-addon-utils.yml
+  - https://fastly.jsdelivr.net/gh/stackharbor-devops/common@sh-4/clustered-addon-utils.yml
 
 settings:
   fields:
