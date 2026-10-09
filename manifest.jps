@@ -33,7 +33,7 @@ targetNodes:
   ]
 
 homepage: https://github.com/jelastic-jps/lets-encrypt
-baseUrl: https://raw.githubusercontent.com/stackharbor-devops/lets-encrypt/sh-4
+baseUrl: https://raw.githubusercontent.com/stackharbor-devops/lets-encrypt/sh-5
 logo: images/letsencrypt.png
 
 description:
@@ -47,7 +47,7 @@ globals:
 
 mixins:
   - configs/vers.yaml
-  - https://raw.githubusercontent.com/stackharbor-devops/common/sh-4/clustered-addon-utils.yml
+  - https://raw.githubusercontent.com/stackharbor-devops/common/sh-5/clustered-addon-utils.yml
 
 settings:
   fields:
