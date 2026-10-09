@@ -7,8 +7,8 @@ OPENSSL=$(which openssl)
 GREP=$(which grep)
 SED=$(which sed)
 GIT=$(which git);
-BASE_REPO_URL="https://github.com/jelastic-jps/lets-encrypt"
-RAW_REPO_SCRIPS_URL="https://raw.githubusercontent.com/jelastic-jps/lets-encrypt/master/scripts/"
+BASE_REPO_URL="https://github.com/stackharbor-devops/lets-encrypt"
+RAW_REPO_SCRIPS_URL="https://raw.githubusercontent.com/stackharbor-devops/lets-encrypt/sh-4/scripts/"
 SETTINGS_CUSTOM="/var/lib/jelastic/keys/letsencrypt/settings-custom"
 
 [[ -z "$WGET" || -z "$OPENSSL" || -z "$GREP" || -z "$SED" || -z "$GIT" ]] && { echo "PATH not set with neccessary commands"; exit 3 ; }

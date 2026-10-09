@@ -3,7 +3,7 @@
 **[Let’s Encrypt](https://letsencrypt.org/)** is a free and open Certificate Authority, that simplifies and automates processes of browser-trusted SSL certificates issuing and appliance. Using this package you can automatically install Let’s Encrypt as an add-on to your environment.
 
 <p align="center"> 
-<img src="https://github.com/jelastic-jps/lets-encrypt/blob/master/images/letsencrypt-jelastic-ssl.png" width="400">
+<img src="https://github.com/stackharbor-devops/lets-encrypt/blob/sh-4/images/letsencrypt-jelastic-ssl.png" width="400">
 </p>
 
 The installation can be performed on one of the following Jelastic containers as an entry point:
@@ -22,12 +22,12 @@ To get deeper insights on how the Let’s Encrypt service works, refer to the [o
 
 ## Installation Process
 
-Import the [raw link of the add-on manifest](https://raw.githubusercontent.com/jelastic-jps/lets-encrypt/master/manifest.jps) within Jelastic PaaS dashboard or initiate the installation within **Marketplace > Add-Ons**.
+Import the [raw link of the add-on manifest](https://raw.githubusercontent.com/stackharbor-devops/lets-encrypt/sh-4/manifest.jps) within Jelastic PaaS dashboard or initiate the installation within **Marketplace > Add-Ons**.
 
-Note: to access the dashboard you need to be registered at one of the [Jelastic Public Cloud providers](https://jelastic.com/install-application/?manifest=https://raw.githubusercontent.com/jelastic-jps/lets-encrypt/master/manifest.jps&keys=app.jelastic.eapps.com;app.cloud.hostnet.nl;app.jelastichosting.nl;app.appengine.flow.ch;app.jelasticlw.com.br;app.mircloud.host;app.jcs.opusinteractive.io;app.paas.quarinet.eu) or have a Private Cloud installation.
+Note: to access the dashboard you need to be registered at one of the [Jelastic Public Cloud providers](https://jelastic.com/install-application/?manifest=https://raw.githubusercontent.com/stackharbor-devops/lets-encrypt/sh-4/manifest.jps&keys=app.jelastic.eapps.com;app.cloud.hostnet.nl;app.jelastichosting.nl;app.appengine.flow.ch;app.jelasticlw.com.br;app.mircloud.host;app.jcs.opusinteractive.io;app.paas.quarinet.eu) or have a Private Cloud installation.
 
 <p align="center"> 
-<img src="https://github.com/jelastic-jps/lets-encrypt/blob/master/images/install-letsencrypt-ssl.png" width="400">
+<img src="https://github.com/stackharbor-devops/lets-encrypt/blob/sh-4/images/install-letsencrypt-ssl.png" width="400">
 </p>
 
 In the opened confirmation window:
@@ -35,7 +35,7 @@ In the opened confirmation window:
   * leave the field blank to create a dummy SSL certificate, assigned to environment internal URL (env_name.{[hoster_domain](https://docs.jelastic.com/jelastic-hoster-info)}), for being used in testing
   * insert the preliminary linked external domain(s) to get trusted certificates; if specifying multiple hostnames, separate them with either comma or semicolon
 <p align="center">
-<img src="https://github.com/jelastic-jps/lets-encrypt/blob/master/images/separate-domains.png" width="400">
+<img src="https://github.com/stackharbor-devops/lets-encrypt/blob/sh-4/images/separate-domains.png" width="400">
 </p>
 
 * select the corresponding **Environment name** within the expandable drop-down list 
